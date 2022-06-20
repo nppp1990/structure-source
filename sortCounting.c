@@ -2,15 +2,19 @@
 #include <stdlib.h>
 
 void countingSort(int arr[], int length, int max) {
-    int *const bucket = (int *) malloc(sizeof(int) * (max + 1));
+    int * bucket = (int *) malloc(sizeof(int) * max);
     int i, j;
+    for (i = 0; i < max; i++) {
+        // 一开始都是0
+        bucket[i] = 0;
+    }
     for (i = 0; i < length; i++) {
         int index = arr[i];
         // 用value作为bucket的index
         bucket[index] = bucket[index] + 1;
     }
 
-    for (i = 0, j = 0; i < max + 1; i++) {
+    for (i = 0, j = 0; i < max; i++) {
         int size = bucket[i];
         while (size > 0) {
             arr[j++] = i;
