@@ -18,6 +18,9 @@
 ## 查找算法
 [顺序查找](find-linear.c)  [二分查找](find-binary.c)  [哈希查找](find-hash.c) [插值查找](find-interpolation.c)
 
+## 字符串匹配
+[KMP算法](kmp.c)
+
 ## 二叉树
 [树的遍历：先序、中序、后序、递归+非递归、层序遍历](tree.c)
 
