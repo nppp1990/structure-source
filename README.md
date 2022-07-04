@@ -5,7 +5,7 @@
 
 ![示例图片](https://7374-structure-learning-1dt4dede4e278-1309301497.tcb.qcloud.la/myPic/qrcode.jpeg)
 
-# 线性表
+## 线性表
 [数组](list-array.c) [链表](list-link.c)  [栈](list-stack.c) [队列](list-queue.c)
 
 ## 排序算法
